@@ -1,0 +1,12 @@
+@import "../../assets/scss/base/variables.scss";
+
+
+.sidebar {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: $color-dark;
+    border-radius: $round-large;
+    box-shadow: $shadow-medium;
+}

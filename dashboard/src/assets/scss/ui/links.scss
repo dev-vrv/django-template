@@ -1,0 +1,21 @@
+.link {
+    color: $color-dark;
+    text-decoration: none;
+    transition: color 0.3s;
+    background-color: $color-none;
+    border: none;
+    &:hover {
+        color: $color-primary !important;
+    }
+    &.active {
+        color: $color-primary !important;
+    }
+}
+
+.link-primary {
+    @extend .link;
+    color: $color-primary !important;
+    &:hover {
+        color: $color-dark !important;
+    }
+}

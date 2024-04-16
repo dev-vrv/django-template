@@ -1,0 +1,33 @@
+{
+    "folders": [
+		{
+			"path": "../../../"
+		}
+	],
+	"settings": {
+		"liveSassCompile.settings.autoprefix": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+		"liveSassCompile.settings.formats": [
+			{
+				"format": "expanded",
+				"extensionName": ".css",
+				"savePath": "core/core/static/css"
+			},
+			{
+				"format": "compressed",
+				"extensionName": ".min.css",
+				"savePath": "core/core/static/css"
+			}
+		],
+		"liveSassCompile.settings.partialsList": [
+			"core/core/static/"
+		],
+		"liveSassCompile.settings.generateMap": true,
+		"liveSassCompile.settings.excludeList": [
+			"**/node_modules/**",
+			".vscode/**"
+		],
+		"cSpell.ignoreWords": [
+			"viewsets"
+		],
+	}
+}

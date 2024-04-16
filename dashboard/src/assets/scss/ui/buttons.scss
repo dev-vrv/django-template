@@ -1,0 +1,26 @@
+@import "../base/variables";
+
+.btn {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: $round-large;
+}
+
+
+.btn-primary {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &:hover {
+        background-color: darken($color-primary, 20%);
+    }
+}
+
+.btn-secondary {
+    background-color: $color-secondary;
+    color: $color-white;
+
+    &:hover {
+        background-color: darken($color-secondary, 10%);
+    }
+}

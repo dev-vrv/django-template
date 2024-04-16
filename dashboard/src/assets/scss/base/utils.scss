@@ -1,0 +1,21 @@
+
+.unselect {
+    user-select: none;
+  }
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.cursor-not-allowed {
+  cursor: not-allowed !important;
+}
+
+
+.show {
+  animation: fadeInUp 0.3s 0.3s ease-in-out;
+}
+
+.hide {
+  animation: fadeOutDown 0.3s ease-in-out;
+}
